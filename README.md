@@ -2,6 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
+Azure Cloud
 ![Update the path with the name of your diagram](Images/Azure_CloudSecurity.PNG)
 
 ![Update the path with the name of your diagram](Images/Docker_ps_output.PNG)

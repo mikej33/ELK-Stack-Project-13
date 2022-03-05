@@ -1,0 +1,2 @@
+Run sudo apt update then sudo apt install docker.io
+sudo docker pull cyberxsecurity/ansible

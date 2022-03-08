@@ -4,12 +4,12 @@ The files in this repository were used to configure the network depicted below.
 
 Azure Cloud
 ![Update the path with the name of your diagram](Images/Azure_CloudSecurity.PNG)
-
-![Update the path with the name of your diagram](Images/Azure_CloudSecurity.PNG)
+Azure Cloud with Elk Stack
+![Update the path with the name of your diagram](Images/Azure_CloudSecurity_ELK)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __playbook__ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - __install-elk.yml,Ansible Host File, Ansible.cfg__
+  - __Host,Ansible.cfg,my_playbook.yml,filebeat-config.yml,filebeat-playbook.yml,install-elk.yml,metricbeat-config.yml__
 
 This document contains the following details:
 - Description of the Topologu
@@ -62,9 +62,9 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 107.205.7.103        |
 |  Elk     | Yes                 | 107.205.7.103        |
-|  Web-1   | No                  | 10.3.0.5  10.1.0.6   |
-|  Web-2   | No                  | 10.3.0.5  10.1.0.6   |
-|  Web-3   | No                  | 10.3.0.5  10.1.0.6   |
+|  Web-1   | No                  | 10.3.0.5, 10.1.0.6   |
+|  Web-2   | No                  | 10.3.0.5, 10.1.0.6   |
+|  Web-3   | No                  | 10.3.0.5, 10.1.0.6   |
 |  LB      | Yes                 | 107.205.7.103        |
 
 

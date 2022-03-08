@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - __Host,Ansible.cfg,my_playbook.yml,filebeat-config.yml,filebeat-playbook.yml,install-elk.yml,metricbeat-config.yml__
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
